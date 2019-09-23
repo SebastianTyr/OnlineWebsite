@@ -1,0 +1,27 @@
+body{
+    background-color: #FFF;
+    margin: 0;
+}
+svg{
+    width: 100%;
+    height: 150px;
+    background-color: #F5F1F1;
+    box-shadow: 2px 2px 2px 2px #3A3737;
+}
+line{
+    stroke: #FF0000;
+    stroke-width: 0.5px;
+}
+#logocz1{
+    font-size: 48px;
+    font-family: 'Open Sans Condensed', cursive;
+    fill: #E24444;
+}
+#logocz2{
+    font-size: 48px;
+    font-family: 'Open Sans Condensed', cursive;
+    fill: #E24444;
+}
+image{
+    height: 150px;
+}
