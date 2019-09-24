@@ -1,5 +1,5 @@
 body{
-    background-color: #FFF;
+    background-color: #F2F2F2;
     margin: 0;
 }
 svg{
@@ -24,4 +24,49 @@ line{
 }
 image{
     height: 150px;
+}
+header{
+    text-align: center;
+}
+header > h1{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 48px;
+}
+div{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+div > h2{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif
+}
+div > img{
+    width: 250px;
+    height: 250px;
+}
+#a{
+    width: 300px;
+    height: 250px;
+}
+#b{
+    width: 300px;
+    height: 250px;
+}
+h1{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 48px;
+}
+p{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    text-align: center;
 }
