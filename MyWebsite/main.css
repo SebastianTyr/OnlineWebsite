@@ -1,72 +1,29 @@
 body{
-    background-color: #F2F2F2;
-    margin: 0;
 }
-svg{
+nav{
+    color: #2F2C2C;
     width: 100%;
-    height: 150px;
-    background-color: #F5F1F1;
-    box-shadow: 2px 2px 2px 2px #3A3737;
+    height: 110px;
 }
-line{
-    stroke: #FF0000;
-    stroke-width: 0.5px;
+#logo{
+    float: left;
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+    cursor: pointer;
 }
-#logocz1{
-    font-size: 48px;
-    font-family: 'Open Sans Condensed', cursive;
-    fill: #E24444;
+ol{
+    float: left;
+    margin-left: 450px;
 }
-#logocz2{
-    font-size: 48px;
-    font-family: 'Open Sans Condensed', cursive;
-    fill: #E24444;
-}
-image{
-    height: 150px;
-}
-header{
-    text-align: center;
-}
-header > h1{
-    text-align: center;
-    font-family: 'Bree Serif', serif;
-    font-size: 48px;
-}
-div{
+ol > li{
     display: inline-block;
-    width: 300px;
-    height: 300px;
-    margin-left: 120px;
-    margin-top: 20px;
+    font-size: 28px;
+    padding: 20px;
 }
-div > h2{
-    text-align: center;
-    text-decoration: underline;
-    font-family: 'Times New Roman', Times, serif
-}
-div > img{
-    width: 250px;
-    height: 250px;
-}
-#a{
-    width: 300px;
-    height: 250px;
-}
-#b{
-    width: 300px;
-    height: 250px;
-}
-h1{
-    margin-top: 50px;
-    text-align: center;
-    font-family: 'Bree Serif', serif;
-    font-size: 48px;
-}
-p{
-    font-size: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
-    text-align: center;
+ol > li:hover{
+    background-color: #39CBFF;
+    color: #FFF;
+    border-radius: 20px;
+    cursor: pointer;
 }
