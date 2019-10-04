@@ -2,8 +2,6 @@ body{
     margin: 0;
 }
 nav{
-    background-color: #D8FBFF;
-    color: #2F2C2C;
     width: 100%;
     height: 130px;
 }
@@ -17,7 +15,7 @@ nav{
 }
 ol{
     float: left;
-    margin-left: 350px;
+    margin-left: 300px;
     margin-top: 30px;
 }
 ol > li{
@@ -30,6 +28,7 @@ ol > li:hover{
     color: #FFF;
     border-radius: 20px;
     cursor: pointer;
+    transition-duration: 150ms;
 }
 header{
     clear: both;
@@ -38,25 +37,43 @@ header{
     padding: 20px;
 }
 #content{
-    width: 600px;
+    width: 100%;
     height: 400px;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: #D8FBFF;
+    margin-left: 240px;
 }
 .offers{
-    margin: 10px;
-    width: 230px;
-    height: 142px;
-    background-color: #3095D3;
+    margin: 20px;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #D8FBFF;
     float: left;
-    position: relative;
+}
+.offers:hover, .offers1:hover{
+    transform: scale(1.1);
+    transition-timing-function: ease-in-out;
+    transition-duration: 250ms;
 }
 .offers1{
-    margin: 10px;
-    width: 230px;
-    height: 142px;
-    background-color: #3095D3;
+    margin: 20px;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #D8FBFF;
     float: left;
-    position: relative;
+}
+#tech{
+    clear: both;
+    text-align: center;
+    font-size: 48px;
+    padding: 20px;
+}
+#technologies{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+}
+#technologies > img{
+    width: 250px;
+    height: 200px;
 }
