@@ -49,6 +49,21 @@ header{
     background-color: #D8FBFF;
     float: left;
 }
+.offers > img{
+    float: left;
+}
+.offers1 > img{
+    float: left;
+}
+#header{
+    float: left;
+    text-decoration: underline;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    margin-top: -5px;
+}
 .offers:hover, .offers1:hover{
     transform: scale(1.1);
     transition-timing-function: ease-in-out;
@@ -73,7 +88,11 @@ header{
     text-align: center;
     padding: 20px;
 }
-#technologies > img{
-    width: 250px;
-    height: 200px;
+#technologies > img:hover{
+    transform: scale(1.1);
+    transition-timing-function: ease-in-out;
+    transition-duration: 250ms;
+}
+footer{
+    text-align: center;
 }
