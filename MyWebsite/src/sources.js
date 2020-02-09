@@ -1,21 +1,12 @@
 import React from "react"
-import logo from "./images/logo.png"
+import Menu from "./assets/navbar"
 import "./Layout.css"
 
 class Sources extends React.Component{
     render(){
         return(
             <div className="Sources">
-                <nav>
-                    <a href="./main_page.html"><img src="./images/logo.png" alt="" id="logo"/></a>
-                    <ol>
-                        <li><a href="./main_page.html">O mnie</a></li>
-                        <li><a>Co oferuję</a></li>
-                        <li><a>Projekty</a></li>
-                        <li><a>Kontakt</a></li>
-                        <li><a href="./sources.html">Źródła</a></li>
-                    </ol>
-                </nav>
+                <Menu></Menu>
 
                 <div>
                     <p>
@@ -30,7 +21,7 @@ class Sources extends React.Component{
                     </p>
                 </div>
 
-                <footer>Copyright &copy 2019</footer>
+                <footer>Copyright 2019</footer>
             </div>
         );
     }
