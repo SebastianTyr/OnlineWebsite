@@ -5,10 +5,10 @@ import {
     Route,
     Link
   } from "react-router-dom"
-import logo from "../images/logo.png"
-import Sources from "../sources"
+import logo from "../assets/logo.png"
+import Sources from "./Sources"
 import App from "../App"
-import "../Layout.css"
+import "../assets/layout.css"
 
 class Navbar extends React.Component{
     render(){

@@ -1,6 +1,6 @@
 import React from "react"
-import Menu from "./assets/navbar"
-import "./Layout.css"
+import Menu from "./Navbar"
+import "..assets/layout.css"
 
 class Contact extends React.Component{
     render(){
