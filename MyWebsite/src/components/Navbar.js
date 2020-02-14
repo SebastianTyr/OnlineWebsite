@@ -15,7 +15,7 @@ class Navbar extends React.Component{
         return(
         <Router>
             <div>
-                <nav class="menu">
+                <nav className="menu">
                     <Link to="../App"><img src={logo} alt="" id="logo"/></Link>
                     <ol>
                         <li id="navlist"><Link to="../App">O mnie</Link></li>

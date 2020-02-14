@@ -2,6 +2,7 @@ import React from 'react';
 import Menu from "./components/Navbar"
 import Content from "./components/Content"
 import './assets/layout.css';
+import About from './components/About';
 
 class App extends React.Component {
   render(){
@@ -9,6 +10,10 @@ class App extends React.Component {
       <div className="App">
 
         <Menu/>
+
+        <header>Kim jestem ?</header>
+
+        <About />
     
         <header>Czym się zajmuję ?</header>
 

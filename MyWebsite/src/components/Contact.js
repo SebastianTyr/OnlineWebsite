@@ -1,23 +1,24 @@
 import React from "react"
-import Menu from "./Navbar"
-import "..assets/layout.css"
+import "../assets/layout.css"
 
 class Contact extends React.Component{
     render(){
         return(
             <div className="contact">
-                <Menu></Menu>
-                <form>
-                    <label id="emailLabel">E-mail</label>
-                    <input id="email"placeholder="E-mail"></input>
 
-                    <label id="contentLabel">Treść</label>
-                    <input id="content" placeholder="Treść"></input>
+                <form className="contactform">
+                    <div className="emailform">
+                        <label id="emailLabel">E-mail</label>
+                        <input id="email"placeholder="E-mail"></input>
+                    </div>
 
-                    <button id="submit">
-                        Wyślij
-                    </button>
+                    <div className="contentform">
+                        <label id="contentLabel">Treść</label>
+                        <input id="content"></input>
+                    </div>
+                    <button id="submit">Wyślij</button>
                 </form>
+
             </div>
         )
     }
