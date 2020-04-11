@@ -1,6 +1,5 @@
 import React from "react"
-import Menu from "./Navbar"
-import "../assets/layout.css"
+import Menu from "./Menu"
 
 class Sources extends React.Component{
     render(){

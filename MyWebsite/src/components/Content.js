@@ -1,5 +1,4 @@
 import React from "react"
-import "../assets/layout.css"
 
 class Content extends React.Component{
     render(){

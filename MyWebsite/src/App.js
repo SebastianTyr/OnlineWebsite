@@ -1,8 +1,7 @@
 import React from 'react';
-import Menu from "./components/Navbar"
-import Content from "./components/Content"
-import './assets/layout.css';
-import About from './components/About';
+import Menu from "./Components/Menu";
+import Content from "./Components/Content";
+import About from './Components/About';
 
 class App extends React.Component {
   render(){

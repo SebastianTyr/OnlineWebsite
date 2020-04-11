@@ -56,14 +56,14 @@ header{
   font-size: 48px;
   padding: 20px;
 }
-p{
+#aboutParagraph{
   position: relative;
   margin-left: 280px;
   margin-right: 280px;
   font-size: 20px;
   text-align: justify;
 }
-p > span{
+#aboutParagraph > span{
   position: absolute;
   border-left: 1px solid transparent;
   animation: write 10s steps(25,start) infinite, chars 1s step-end infinite;
