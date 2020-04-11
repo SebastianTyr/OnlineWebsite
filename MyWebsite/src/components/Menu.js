@@ -7,12 +7,12 @@ class Navbar extends React.Component{
         <div>
             <nav class="menu">
             <a href=""><img src={logo} alt="" id="logo"/></a>
-                <ol>
-                    <li id="navlist"><a href="">O mnie</a></li>
-                    <li id="navlist"><a>Co oferuję</a></li>
-                    <li id="navlist"><a>Projekty</a></li>
-                    <li id="navlist"><a>Kontakt</a></li>
-                    <li id="navlist"><a href="">Źródła</a></li>
+                <ol id="nav-list">
+                    <li id="nav-list-element">O mnie</li>
+                    <li id="nav-list-element">Co oferuję</li>
+                    <li id="nav-list-element">Projekty</li>
+                    <li id="nav-list-element">Kontakt</li>
+                    <li id="nav-list-element">Źródła</li>
                 </ol>
             </nav>
         </div>
