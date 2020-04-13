@@ -1,24 +1,44 @@
 import React from 'react';
-import Menu from "./Components/Menu";
+
+import Menu from "./Components/Navbar/Menu";
+import SideDrawer from "./Components/Navbar/SideDrawer";
+import Backdrop from "./Components/Navbar/BackDrop"
 import Content from "./Components/Content";
 import About from './Components/About';
+import bakcdrop from './Components/Navbar/BackDrop';
 
 class App extends React.Component {
-  render(){
+  state = {
+    sideDrawerOpen: false,
+  }
+
+  drawerToggleClickHandler = () => {
+    this.setState(prevState => {
+      return { sideDrawerOpen: !prevState.sideDrawerOpen }
+    })
+  }
+
+  backdropClickHandler = () => {
+    this.setState({ sideDrawerOpen: false })
+  }
+
+  render() {
+    let backdrop;
+
+    if (this.state.sideDrawerOpen) {
+      backdrop = <Backdrop click={this.backdropClickHandler} />
+    }
+
     return (
-      <div className="App">
-
-        <Menu/>
-
+      <div style={{height: '100%'}}>      
+        <Menu drawerToggleClickHandler={this.drawerToggleClickHandler} />
+        <SideDrawer show={this.state.sideDrawerOpen} />
+        {backdrop}
         <header>Kim jestem ?</header>
-
         <About />
-    
         <header>Czym się zajmuję ?</header>
-
         <Content/>
-
-        <div id="tech">Stack Technologiczny</div>
+        <header id="tech">Stack Technologiczny</header>
 
         <div id="techcont">
           <div id="technologies">
