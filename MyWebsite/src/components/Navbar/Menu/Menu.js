@@ -1,6 +1,7 @@
 import React from "react";
-import logo from "../../Assets/logo.png";
-import DrawerToggleButton from "./DrawerToggleButton";
+import logo from "../../../Assets/logo.png";
+import DrawerToggleButton from "../SideDrawer/DrawerToggleButton";
+import "./menu.scss";
 
 const Menu = props => (
     <div>
