@@ -3,8 +3,8 @@ import React from 'react';
 import Menu from "./Components/Navbar/Menu/Menu";
 import SideDrawer from "./Components/Navbar/SideDrawer/SideDrawer";
 import Backdrop from "./Components/Navbar/Backdrop/BackDrop"
-import Content from "./Components/Content";
-import About from './Components/About';
+import Content from "./Components/Content/Content";
+import About from './Components/About/About';
 import bakcdrop from './Components/Navbar/Backdrop/BackDrop';
 
 class App extends React.Component {
