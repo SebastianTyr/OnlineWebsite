@@ -6,6 +6,7 @@ import Backdrop from "./Components/Navbar/Backdrop/BackDrop"
 import Content from "./Components/Content/Content";
 import About from './Components/About/About';
 import bakcdrop from './Components/Navbar/Backdrop/BackDrop';
+import HamburgerMenu from 'react-hamburger-menu';
 
 class App extends React.Component {
   state = {
@@ -20,6 +21,12 @@ class App extends React.Component {
 
   backdropClickHandler = () => {
     this.setState({ sideDrawerOpen: false })
+  }
+
+  handleClick = () => {
+    this.setState({
+      open: !this.state.open
+    });
   }
 
   render() {
@@ -54,5 +61,19 @@ class App extends React.Component {
     );
   }
 }
+
+/* TODO
+<HamburgerMenu 
+  isOpen={this.state.open}
+  menuClicked={this.handleClick.bind(this)}
+  width={18}
+  height={15}
+  strokeWidth={1}
+  rotate={0}
+  color='black'
+  borderRadius={0}
+  animationDuration={0.5}
+/>
+*/
 
 export default App;
